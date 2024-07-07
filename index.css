@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
     box-sizing: border-box;
     font-family: Rubik;
 }
@@ -76,7 +76,7 @@ margin-top: -190px;
     margin-top: 30px;
     font-family: Rubik;
     font-size: 15px;
-    box-shadow: 1px 0px 20px #F53838;
+    box-shadow: 0px 10px 10px -5px #F53838;
     
 }
 
@@ -96,12 +96,46 @@ margin-top: -190px;
     margin-left: 100px;
     margin-top: 100px;
     width: 1140px;
-    height: 150px;
-    background-color: blue;
+    height: 170px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0px 10px 10px -5px grey;
 }
 #icon-1, #icon-2, #icon-3{
     display: flex;
     align-items: right;
+    margin-top: 40px;
+}
+#vertical-line-1, #vertical-line-2{
+    width: 2px;
+    height: 120px;
+    background-color: #EEEFF2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.icon-div pre{
+    margin-top: 10px;
+
+}
+.middle-section{
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+.middle-section img{
+    display: inline-block;
+}
+.middle-section pre{
+    margin-top: -350px;
+    margin-left: 700px;
+    line-height: 30px;
+}
+.middle-section ul{
+    margin-left: 730px;
+    list-style-image: url(./images/bx_bxs-check-circle.png);
+    line-height: 30px;
+}
+#Choose{
+    text-align: center;
 }
