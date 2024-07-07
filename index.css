@@ -82,15 +82,15 @@ margin-top: -190px;
 
 .icon-circle {
     display: inline-block;
-    width: 50px; /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
-    line-height: 50px; /* Adjust the size as needed */
+    width: 50px;
+    height: 50px; 
+    line-height: 50px;
     border-radius: 50%;
-    background-color: #FFECEC; /* Background color of the circle */
+    background-color: #FFECEC; 
     text-align: center;
-    color: red; /* Icon color */
-    font-size: 15px; /* Adjust the icon size as needed */
-    margin: 10px; /* Space between circles */
+    color: red; 
+    font-size: 15px; 
+    margin: 10px; 
 }
 .icon-div{
     margin-left: 100px;
@@ -199,3 +199,101 @@ justify-content: space-evenly;
     width: 1150px;
     margin-left: 100px;
 }
+.fourth-pre{
+    text-align: center;
+}
+.bottom-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    justify-content: space-evenly;
+}
+#comment{
+    width: 500px;
+    height: 200px;
+    border: 2px solid whitesmoke;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+#comment i{
+    color: orange;
+}
+#comment img, #comment pre{
+    display: block;
+}
+#comment img{
+    margin-top: 10px;
+}
+#comment pre{
+    line-height: 7px;
+    margin-left: 70px;
+    margin-top: -40px;
+
+}
+#comment span{
+    margin-left: 220px;
+    margin-top: -40px;
+}
+#h-tag{
+    margin-left: 220px;
+    margin-top: -30px;
+}
+#y-tag{
+    margin-top: 30px;
+}
+#small-button{
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid red;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+#small-circles{
+
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: #DDE0E4; 
+    text-align: center;
+    margin: 10px;
+
+}
+.small-circles-all{
+margin-left: 190px;
+margin-top: -20px;
+}
+.icons{
+    float: right;
+    margin-top: -30px;
+    margin-right: 150px;
+}
+.icons i{
+    font-size: 40px;
+    margin-left: 20px;
+}
+#icon-red{
+    background-color: white;
+    color: red;
+    border: red;
+}
+#icon-red-1{
+    background-color: #F53838;
+    /* color: white; */
+}
+#icon-red-1{
+    display: inline-block;
+    width: 50px;
+    height: 50px; 
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #FFECEC; 
+    text-align: center;
+    color: red; 
+    font-size: 15px; 
+    margin-left: 20px;
+} 
