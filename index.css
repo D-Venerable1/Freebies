@@ -94,7 +94,7 @@ margin-top: -190px;
 }
 .icon-div{
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 1140px;
     height: 170px;
     background-color: #FFFFFF;
@@ -138,4 +138,64 @@ margin-top: -190px;
 }
 #Choose{
     text-align: center;
+}
+.middle-content{
+display: flex;
+justify-content: space-evenly;
+}
+#price{
+    height: 750px;
+    width: 330px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    list-style-image: url(./images/Group\ 1223.png);
+    padding-left: 80px;
+}
+#price img{
+    margin-top: 70px;
+}
+#price h2{
+    margin-top: 30px;
+}
+#price li{
+    color: grey;
+    line-height: 30px;
+}
+#price pre{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: grey;
+}
+.middle-content input{
+    width: 160px;
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 8px 35px;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+}
+#premium{
+    color: white;
+    background-color: red; 
+    box-shadow: 0px 10px 10px -5px red; ;
+}
+.third-pre{
+    text-align: center;
+    margin-top: 80px;
+}
+.third-pre pre{
+    font-weight: bold;
+    font-size: 25px;
+}
+#third-image{
+    margin-left: 100px;
+    width: 1150px;
+}
+#fourth-image{
+    width: 1150px;
+    margin-left: 100px;
 }
