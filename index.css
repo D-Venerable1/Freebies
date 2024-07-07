@@ -95,4 +95,13 @@ margin-top: -190px;
 .icon-div{
     margin-left: 100px;
     margin-top: 100px;
+    width: 1140px;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+#icon-1, #icon-2, #icon-3{
+    display: flex;
+    align-items: right;
 }
