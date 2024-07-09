@@ -12,6 +12,9 @@ body{
 nav{
     background-color: white;
     height: 80px;
+    position: fixed;
+    top: 0;
+    padding: 10px 0px;
 }
 .highlighted{
     font-weight: bold;
@@ -23,6 +26,7 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 90px;
+    margin-left: 205px;
     
 }
 #img-logo{
@@ -354,8 +358,5 @@ margin-top: -135px;
     margin-left: 20px;
     
 }
-@media screen and (max-width: 480px){
-    nav{
-        width: 450px;
-    }
-}
+
+
